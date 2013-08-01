@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Deck Tester"
+    />
+    <Space
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:id="@+id/space" android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lands"
+            android:id="@+id/textView" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:inputType="number"
+            android:id="@+id/editTextLands" android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Creatures"
+            android:id="@+id/textView1" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:inputType="number"
+            android:id="@+id/editTextCreatures" android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Others"
+            android:id="@+id/textView2" android:layout_gravity="left|center_vertical"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:inputType="number"
+            android:id="@+id/editTextOthers" android:layout_gravity="left|center_vertical"/>
+    <Space
+            android:layout_width="20px"
+            android:layout_height="20px"
+            android:id="@+id/space1" android:layout_gravity="center"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test"
+            android:id="@+id/button" android:layout_gravity="center"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewResult1" android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewResult2" android:layout_gravity="left|center_vertical"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="24dp"
+            android:id="@+id/textViewResult3" android:layout_gravity="left|center_vertical"/>
+</LinearLayout>
+
